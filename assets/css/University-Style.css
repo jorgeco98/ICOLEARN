@@ -60,6 +60,7 @@ body {
     z-index: 997;
     padding: 20px 0;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+    
   }
   
   #header .logo {
@@ -303,6 +304,19 @@ body {
     display: block;
   }
   
+  /*----------------------------*/
+  /*----------------------------*/
+  /*university info*/
+  #university-information {
+    margin-top: 5vh;
+    padding-bottom: 15vh;
+  }
+
+  #result {
+    margin-top: 10vh;
+  }
+   /*----------------------------*/
+    /*----------------------------*/
   
   
   /*--------------------------------------------------------------
@@ -323,6 +337,7 @@ body {
   .team .member .member-img {
     position: relative;
     overflow: hidden;
+    
   }
   
   .team .member .social {
@@ -360,7 +375,14 @@ body {
   }
   
   .team .member .member-info {
-    padding: 25px 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  #fabricio {
+    margin-top: 20%;
+    margin-bottom: 17%;
   }
   
   .team .member .member-info h4 {
@@ -375,6 +397,7 @@ body {
     font-size: 13px;
     font-weight: 400;
     color: #aaaaaa;
+    
   }
   
   .team .member .member-info p {
@@ -382,6 +405,7 @@ body {
     font-size: 14px;
     line-height: 26px;
     color: #777777;
+    
   }
   
   .team .member:hover .social {
@@ -389,19 +413,6 @@ body {
     bottom: 15px;
   }
   
-  /*---------------------------------------------------*/
-
-/*Section used for centering process*/
-/*
-section {
-    width: 100%;
-    height: 100vh;
-   background-color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-*/
 
 #titulo {
     margin-top: 8%;
@@ -416,8 +427,8 @@ section {
     padding: 0 1.5rem;
   }
 
-  accordion-item{
-    background-color: #000000;
+  .accordion-item{
+    background-color: #FFF;
     border-radius: .4rem;
   }
   
@@ -495,3 +506,35 @@ section {
   .accordion-item:target .accordion-link .ion-md-arrow-down{
     display: block;
   }
+
+  /* Footer */
+  #footer {
+    background: #F7F7F7;
+    padding: 0 0 30px 0;
+    color: #444444;
+    font-size: 14px;
+    height: 120px;
+    background: #F7F7F7;  
+  }
+
+  .footer-container {
+    max-width: 1000px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-container img {
+    width: auto; /* Adjust image width as needed */
+    height: 7vh;
+    margin: 15px 10px; /* Adjust margin between images */
+  }
+  
+  .footer-text {
+    text-align: center;
+  }
+
+  /*--------------------------------------------------------------
+# Testimonials (news)
+--------------------------------------------------------------*/
