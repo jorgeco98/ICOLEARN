@@ -509,12 +509,13 @@ body {
 
   /* Footer */
   #footer {
-    background: #F7F7F7;
-    padding: 0 0 30px 0;
+    background: #FFF;
     color: #444444;
     font-size: 14px;
-    height: 120px;
-    background: #F7F7F7;  
+  }
+  
+  #footer .footer-top {
+    background: #F7F7F7;
   }
 
   .footer-container {
