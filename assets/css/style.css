@@ -111,7 +111,7 @@ h6 {
 */
 .navbar {
   padding: 0;
-  
+
 }
 
 .navbar ul {
@@ -135,7 +135,7 @@ h6 {
   font-family: "Dosis", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #0f394c;
+  color: #0D0D0D;
   white-space: nowrap;
   transition: 0.3s;
   text-transform: uppercase;
@@ -998,14 +998,18 @@ section {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+  border: 3px solid #9ad3ee;
+  /* Ancho del borde: 3px, estilo: sólido, color: azul */
   margin: 0 10px 40px 10px;
-  background: #fff;
+  background: #ffffff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
+  color: #0880a8;
 }
 
 .services .icon-box:hover {
   transform: translateY(-5px);
+  background-color: rgba(209, 246, 246, 0.5);
 }
 
 .services .icon {
@@ -1025,21 +1029,16 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
-}
-
-.services .title a {
   color: #111;
 }
 
-.services .icon-box:hover .title a {
-  color: #49b5e7;
-}
 
 .services .description {
   font-size: 14px;
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
+  color: #111;
 }
 
 /*--------------------------------------------------------------
@@ -1413,6 +1412,7 @@ section {
 .testimonials {
   padding: 70px 0;
   background: url("../img/cta-bg2.png") no-repeat;
+  background-color: rgba(168, 230, 255, 0.9);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1425,7 +1425,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(196, 201, 203, 0.9);
+  background: rgba(168, 230, 255, 0.9);
 }
 
 .testimonials .section-header {
