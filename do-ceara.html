@@ -22,9 +22,9 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/University-Style.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/news-slider.css">
+   <!-- Template Main CSS File -->
+   <link href="assets/css/style.css" rel="stylesheet"> 
+   <link href="assets/css/University-Style.css" rel="stylesheet">
 
   <!-- Requisitos para el desplegable -->
   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
@@ -33,8 +33,7 @@
 </head>
 
 <body>
-
-  <!-- ======= Header ======= -->
+<!-- ======= Header ======= -->
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center justify-content-between">
 
@@ -56,8 +55,8 @@
             <li><a href="unah.html">Universidad Nacional Autónoma de Honduras</a></li>
           </ul>
         </li>
-        <li><a style="font-size: 20px;" class="nav-link scrollto" href="index.html#result">Results</a></li>
-        <li><a style="font-size: 20px;" class="nav-link scrollto" href="index.html#news">News</a></li>
+        <li><a style="font-size: 20px;" class="nav-link scrollto" href="index.html#results">Results</a></li>
+        <li><a style="font-size: 20px;" class="nav-link scrollto" href="index.html#news-p">News</a></li>
         <li><a style="font-size: 20px;" class="nav-link scrollto" href="index.html#contact">Contact us</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
@@ -70,43 +69,34 @@
   </div>
 </header><!-- End Header -->
 
-    <!-- ======= Testimonials Section ======= -->
-<div id="slider-universidad">
-  <section id="testimonials" class="testimonials">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+<!-- ======= UNAH INFO Section ======= -->
+<section style="margin-top: 60px; margin-bottom: 30px;">
+  <div class="row">
+      <div id="imagen" class="logo">
+        <img src="assets/img/ceara.png" alt="Logo unah">
       </div>
-      <div class="carousel-inner">
-        <!--Logo o identificador de la universidad-->
-        <div class="carousel-item active">
-          <img src="./assets/img/4_UFDC/banner1.png" alt="logo-universidad" >
-        </div>
-        <!--Imagenes-->
-        <div class="carousel-item">
-          <img src="./assets/img/4_UFDC/Banner/1.png" alt="logo-universidad">
-        </div>
-        <div class="carousel-item">
-          <img src="./assets/img/4_UFDC/Banner/2.png" alt="logo-universidad"> 
-        </div>
-        <div class="carousel-item">
-          <img src="./assets/img/4_UFDC/Banner/3.png" alt="logo-universidad"> 
-        </div>
-        <div class="carousel-item">
-          <img src="./assets/img/4_UFDC/Banner/4.png" alt="logo-universidad"> 
-        </div>
-      </div>
+      <div id="slide-result" class="slide-side">
+        <!-- ======= New results Section ======= -->
+        <section id="result" class="result">
+          <div class="slider" id="news">
+            <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav" />
+            <input type="radio" name="slider" title="slide2" class="slider__nav" />
+            <input type="radio" name="slider" title="slide3" class="slider__nav" />
+            <input type="radio" name="slider" title="slide4" class="slider__nav" />
+            <div class="slider__inner">
+              <div class="slider__contents" style="background-image: url('assets/img/4_UFDC/Banner/1.png');"></div>
+              <div class="slider__contents" style="background-image: url('assets/img/4_UFDC/Banner/2.png');"></div>
+              <div class="slider__contents" style="background-image: url('assets/img/4_UFDC/Banner/3.png');"></div>
+              <div class="slider__contents" style="background-image: url('assets/img/4_UFDC/Banner/4.png');"></div>
+            </div>
+          </div>
+        </section>
     </div>
-  </section>
-  </div>
+  </div>  
+</section>
 
-<!-- ======= New results Section ======= -->
 <!--accordion-->
-<section class="container" style="margin-top: 30px; margin-bottom: 30vh;">
+<section class="container" style="margin-top: 30px; margin-bottom: 20vh;">
   <div class="accordion accordion-flush" id="accordionFlushExample">
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingOne">
@@ -116,6 +106,7 @@
       </h2>
       <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
         <div class="accordion-body">
+          
           <ul>
             <li>Foundation year: 1954 </li>
             <li>Student number: 33.500</li>
@@ -151,7 +142,6 @@
             </li>
             <li>Number of university campus: 8 </li>
           </ul>
-                
         </div>
       </div>
     </div>
@@ -163,7 +153,8 @@
       </h2>
       <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
         <div class="accordion-body">
-          <a href="https://www.uminho.pt/PT"><h4 style="margin-left: 2vw;">https://www.ufc.br/</h4></a>
+          <a href="https://www.ufc.br"><h4 style="margin-left: 2vw;">https://www.ufc.br/</h4></a>
+        </div>
       </div>
     </div>
     <div class="accordion-item">
@@ -205,16 +196,16 @@
             <a href="https://www.linkedin.com/in/jos%C3%A9-p-barros-neto-0aa0161a/ "><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
-        <div class="member-info">
+        <div class="member-info" style="text-align: center;">
           <h4>José de Paula Barros Neto</h4>
           <h5>COORDINATOR</h5>
           <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="font-size: 8px;">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="font-size: 12px;">
           See more information
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 17vh;">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -251,15 +242,15 @@
               <a href="https://www.linkedin.com/in/raphael-amaral-da-c%C3%A2mara-899a58197/ "><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-          <div class="member-info">
+          <div class="member-info" style="text-align: center;">
             <h4>Raphael Amaral da Câmara</h4>
            <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1" style="font-size: 8px;">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1" style="font-size: 12px;">
           See more information
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 17vh;">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -291,18 +282,17 @@
             <img src="./assets/img/4_UFDC/Members/3.png" class="img-fluid" alt="">
             <div class="social">
               <a href="https://scholar.google.com.br/citations?hl=pt-BR&view_op=list_works&gmla=ABOlHiyzK2PfICeZ4gAw51oUgTY77J8wFwMItvTixAbHneueXX_2CBoE_t6srVkVOq0ULB7BfX4P_1linR2NmTeNOmEn_oJu&user=QVJpDpkAAAAJ "><i class="bi bi-google"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-          <div class="member-info">
+          <div class="member-info" style="text-align: center;">
             <h4>Carlos Almir Monteiro de Holanda</h4>
             <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2" style="font-size: 8px;">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2" style="font-size: 12px;">
           See more information
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 17vh;">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -334,18 +324,17 @@
             <img src="./assets/img/4_UFDC/Members/4.png" class="img-fluid" alt="">
             <div class="social">
               <a href="https://scholar.google.com.br/citations?user=Dlo6szoAAAAJ&hl=pt-BR "><i class="bi bi-google"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-          <div class="member-info">
+          <div class="member-info" style="text-align: center;">
             <h4>Bruno Vieira Bertoncini </h4>
             <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3" style="font-size: 8px;">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3" style="font-size: 12px;">
           See more information
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 17vh;">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -380,15 +369,15 @@
               <a href="www.linkedin.com/in/mariana-lima-76768631 "><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-          <div class="member-info">
+          <div class="member-info" style="text-align: center;">
             <h4>Mariana Monteiro Xavier de Lima</h4>
             <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4" style="font-size: 8px;">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4" style="font-size: 12px;">
           See more information
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 17vh;">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -420,18 +409,17 @@
             <img src="./assets/img/4_UFDC/Members/6.png" class="img-fluid" alt="">
             <div class="social">
               <a href="https://scholar.google.com.br/citations?user=XRnzUAEAAAAJ&hl=pt-BR "><i class="bi bi-google"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-          <div class="member-info">
+          <div class="member-info" style="text-align: center;">
             <h4>Breno Barros Telles do Carmo</h4>
             <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5" style="font-size: 8px;">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5" style="font-size: 12px;">
           See more information
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 17vh;">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -466,15 +454,15 @@
               <a href="https://www.linkedin.com/in/dggomes/ "><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-          <div class="member-info">
+          <div class="member-info" style="text-align: center;">
             <h4>Danielo Gonçalves Gomes </h4>
             <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6" style="font-size: 8px;">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6" style="font-size: 12px;">
           See more information
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 17vh;">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -506,18 +494,17 @@
             <img src="./assets/img/4_UFDC/Members/8.png" class="img-fluid" alt="">
             <div class="social">
               <a href="https://scholar.google.com.br/citations?hl=pt-BR&user=uDGSnBEAAAAJ "><i class="bi bi-google"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-          <div class="member-info">
+          <div class="member-info" style="text-align: center;">
             <h4>Aurea Silva de Holanda</h4>
             <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7" style="font-size: 8px;">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7" style="font-size: 12px;">
           See more information
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 17vh;">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -552,15 +539,15 @@
               <a href="https://fi.linkedin.com/in/michela-mulas-93a4739"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-          <div class="member-info">
+          <div class="member-info" style="text-align: center;">
             <h4>Michela Mulas</h4>
             <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal8" style="font-size: 8px;">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal8" style="font-size: 12px;">
           See more information
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 17vh;">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -587,7 +574,6 @@
       </div>
 
     </div>
-    
 
   </div>
 </section><!-- End Team Section -->
@@ -598,9 +584,10 @@
   </div>
 </section>
 
-  
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
 <!-- ======= Footer ======= -->
-<fo<footer id="footer" style="margin-top: 30px; width: 100%;  height: auto;" class="fixed-bottom">
+<footer id="footer" style="width: 100%;  height: auto;" class="fixed-bottom">
   <div class="footer-top" style="position: relative;  background: white;">
       <div class="footer-container">
         <img class="footerImg" src="./assets/img/UN.png" alt="Image 1">
@@ -614,11 +601,11 @@
         <img class="footerImg" src="./assets/img/UNAH_HORIZONTAL.png" alt="Image 9">
     </div>
     <p class="footer-text">Disclaimer: Funded by the European Union. Views and opinions expressed are howerer those of the author(s) only and do not necessaarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.</p>
-</div>
+  </div>
 </footer>
-<!-- End Footer <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
+<!-- End Footer -->
 
-  
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -628,8 +615,8 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 
 </body>
 
