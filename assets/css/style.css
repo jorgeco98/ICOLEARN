@@ -1044,6 +1044,12 @@ section {
   }
 }
 
+@media (max-width: 768px) {
+  .contact{
+    height: 550px;
+    margin-bottom: 20% !important;
+  }
+}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
