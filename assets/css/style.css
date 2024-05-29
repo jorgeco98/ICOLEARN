@@ -1473,3 +1473,88 @@ section {
 .footer-text {
   text-align: center;
 }
+
+@media (max-width:1100px) {
+  .wp1{
+    margin-top: 15% !important;
+    margin-bottom: 15% !important;
+  }
+}
+
+@media (max-width:900px) {
+  .wp1{
+    margin-top: 25% !important;
+    margin-bottom: 25% !important;
+  }
+}
+
+@media (max-width:500px) {
+  .wp1{
+    margin-top: 45% !important;
+    margin-bottom: 45% !important;
+  }
+}
+
+
+@media (max-width:1000px) {
+  .wp2{
+    margin-top: 30% !important;
+    margin-bottom: 25% !important;
+  }
+}
+
+@media (max-width:500px) {
+  .wp2{
+    margin-top: 45% !important;
+    margin-bottom: 45% !important;
+  }
+}
+
+@media (max-width:1000px) {
+  .wp3{
+    margin-top: 30% !important;
+    margin-bottom: 25% !important;
+  }
+}
+
+@media (max-width:500px) {
+  .wp3{
+    margin-top: 45% !important;
+    margin-bottom: 45% !important;
+  }
+}
+
+@media (max-width:1000px) {
+  .wp4{
+    margin-top: 30% !important;
+    margin-bottom: 25% !important;
+  }
+}
+
+@media (max-width:500px) {
+  .wp4{
+    margin-top: 45% !important;
+    margin-bottom: 45% !important;
+  }
+}
+
+@media (max-width:1000px) {
+  .wp5{
+    margin-top: 20% !important;
+    margin-bottom: 25% !important;
+  }
+}
+
+@media (max-width:600px) {
+  .wp5{
+    margin-top: 35% !important;
+    margin-bottom: 45% !important;
+  }
+}
+
+@media (max-width:400px) {
+  .wp5{
+    margin-top: 45% !important;
+    margin-bottom: 45% !important;
+  }
+}
