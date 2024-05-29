@@ -868,7 +868,7 @@ section {
 
 .services .icon-box:hover{
   transform: translateY(-5px);
-  background-color: rgba(192, 231, 231, 0.5);
+  background-color: rgba(243, 255, 255, 0.5);
 }
 
 .services .icon {
@@ -1043,6 +1043,7 @@ section {
     transform: rotate(360deg);
   }
 }
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -1255,11 +1256,18 @@ section {
   .contact-person {
     flex-basis: 100%; /* En pantallas pequeñas, las columnas ocuparán todo el ancho */
   }
+
+  .contUnah{
+    margin-top: 10px;
+    padding-bottom: 3000px !important;
   }
+}
 
   .contact-person h4 {
     margin-bottom: 2vh;
-  }
+}
+
+
 
 /*--------------------------------------------------------------
 # Carousel
